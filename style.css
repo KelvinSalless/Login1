@@ -1,0 +1,88 @@
+body {
+    background: url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dldHR5aW1hZ2VzLTU0MTM4NTg1Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==); /*Imagem no fundo da página*/
+    width: 400px;
+    padding: 70px; /*Distâcia entre o top da página*/
+    margin: 0 auto; /*Distância entre o lado esquerdo da página*/
+}
+
+.container { /*Deixa toda a classe do container flexivel, pode ser colocado em qualquer dimesão, que não perde o formato*/
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; 
+ }
+
+.login {
+    border: transparent;
+    width: 400px;
+    height: 400px; /*Altura que a caixa vai ficar*/
+    background: url(galaxy.png); /* Imagem que vai dentro da box*/
+    color: white; /*Texto dentro da caixa vai ser branco*/
+    border-radius: 20px; /*Deixando a caixa com bordas redondas*/
+    box-shadow: 0px 0px 20px rgba(113, 156, 250, 0.75); /*Sombreado por tras da box*/
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+form {
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;  
+    display: flex;
+    gap: 5px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.75);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+label {
+    color: rgb(255, 255, 255, 0.8); /*Cor da frase*/
+    text-transform: uppercase; 
+    font-size: 11px;
+    letter-spacing: 2px; /*Separação entre as palavras*/
+    padding-left: 10px; /*Distância da margem*/
+}
+
+input { /*São as caixinhas para escrever o usuário e a senha*/
+    background: rgba(255, 255, 255, 0.3); /* Cor que vai dentro da caixinha de usuário e a senha*/
+    height: 40px; /*Altura da caixinha de usuário e da senha*/
+    line-height: 40px;
+    border-radius: 40px; /*Deixando a borda arredondada da caixinha de usuário e da senha*/
+    padding: 0px 20px;
+    border: none; /*tirando as bordas da caixinha de usuário e de senha*/
+    margin-bottom: 20px; /*Espaçamento entre as caixinhas de usuário e de senha*/
+    color: white; /*Cor que vai ser digitada dentro da caixinha de usuário e de senha*/
+}
+
+button { /*Configuração para o estilo (style) do botão*/
+    background: rgb(45, 126, 231) ;
+    height: 40px; /*Altura do botão*/
+    line-height: 40px;
+    border-radius: 40px; /*Deixando a borda mais redonda*/
+    border: none;   /*Tirando as linhas das bordas*/
+    margin:10px 0px; /*Margem entre a caixinha senha*/
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: white; /*Mudando a cor de dentro do texto do botão*/
+    font-size: 12px; /*Tamanho da fonte dentro do botão*/
+    text-transform: uppercase; /*Deixando todo o texto em letra maiuscula*/
+}
+
+button:hover {
+    opacity: 0.7; /*Quando passa o mouse em cima, da uma escurecida no botão de entrar*/
+}
+
+
+
+
+
+
+
